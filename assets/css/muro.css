@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #FAFAFA;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+
+
+.principal {
+	background: #dfe3ee;
+	border-top: 60px solid #3b5998;
+	color: black;
+	padding: 50px;
+	width: 100%;
+}
+
+.principal .formulario {
+	text-align: right;
+}
+
+.principal .formulario textarea {
+	margin-bottom: 20px;
+  margin: 10px;
+	padding: 20px;
+	width: 100%;
+  font-size: 15px;
+}
+
+.principal .formulario textarea.error {
+	border: 2px solid #D32F2F;
+}
+
+.principal .formulario .boton {
+	background: #3b5998;
+	border: 2px solid #f7f7f7;
+	color: #fff;
+	font-size: 12px;
+	padding: 10px; 
+}
+
+.principal .formulario .boton:hover {
+	background: #8b9dc3;
+}
+
+
+.postPrincipal .listaPost .div-contenedor{
+	border: 1px solid black;
+	padding: 10px;
+	margin:10px;
+	display: block;
+	transition: 1s;
+}
+
+.postPrincipal .listaPost .div-contenedor .textPost{
+	border: 1px solid black;
+	padding: 10px;
+	margin:10px;
+	display: block;
+}
+
+.postPrincipal .listaPost div a {
+	color: #212121;
+	display: inline-block;
+	margin: 10px;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.postPrincipal .listaPost div a:hover {
+	text-decoration: line-through;
+}

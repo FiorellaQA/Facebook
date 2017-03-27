@@ -1,0 +1,69 @@
+		body, html{
+			margin: 0px;
+			padding: 0px;
+			font-family: Arial;
+		}
+		span{
+			display: block;
+    		font-size: 10px;
+    		margin-left: 15px;
+    		color: red;
+		}
+		.nav{
+			background: #3b5998;
+		}
+		.container{
+			width: 900px;
+			margin: 0 auto;
+		}
+		.nav-logo{
+			padding: 20px 0px;
+			color: #fff;
+			font-size: 30px;
+		}
+		.content{
+			background: #e9ebee;
+		}
+		.content .container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.content-register{
+			background: #FFF;
+			width: 600px;
+			margin: 60px 0px;
+			padding: 20px;
+			border-radius: 2px;
+			border:1px solid #e5e6e9;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-flow: column;
+		}
+		.content-register-title{
+			font-size: 18px;
+			margin: 10px;
+		}
+		.content-register-form input:not([type="button"]){
+			font-size: 14px;
+			width: 400px;
+			padding: 8px;
+			border:1px solid #e5e6e9;
+			background: #fff;
+			margin: 10px;
+		}
+		.content-register-form input[type="button"]{
+			border:1px solid #4267b2;
+			background: #4267b2;
+			width: 400px;
+			color: #fff;
+			padding: 10px 0px;
+			margin: 10px;
+			font-size: 14px;
+			cursor: pointer;
+		}
+		.content-register-form input[type="button"]:hover{
+			background: #365899;
+			transition: 1s;
+		}
